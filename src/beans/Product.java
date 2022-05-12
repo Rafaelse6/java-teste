@@ -7,7 +7,7 @@ public class Product {
     private String description;
     private String targetMarket;
     private String stack;
-
+    
     public String getStack() {
         return stack;
     }
@@ -47,6 +47,4 @@ public class Product {
     public void setTargetMarket(String targetMarket) {
         this.targetMarket = targetMarket;
     }
-
-    
 }
